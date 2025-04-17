@@ -1,0 +1,15 @@
+{
+  "name": "prettier-sh-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "prettier": "npm run prettier:base -- --write",
+    "prettier:base": "prettier --ignore-path .gitignore .",
+    "prettier:check": "npm run prettier:base -- --check"
+  },
+  "devDependencies": {
+    "prettier": "~3.5.3",
+    "prettier-plugin-sh": "0.17.2"
+  }
+}

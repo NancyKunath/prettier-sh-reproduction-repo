@@ -1,0 +1,9 @@
+{
+  "plugins": ["prettier-plugin-sh"],
+
+  "singleQuote": true,
+  "printWidth": 120,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "endOfLine": "lf"
+}

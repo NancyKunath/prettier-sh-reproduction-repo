@@ -10,6 +10,10 @@
   },
   "devDependencies": {
     "prettier": "~3.5.3",
-    "prettier-plugin-sh": "0.17.2"
+    "prettier-plugin-sh": "0.17.2",
+    "@reteps/dockerfmt": "0.2.8"
+  },
+  "dependencies": {
+    "tsx": "^4.19.3"
   }
 }
